@@ -1,0 +1,14 @@
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\bin\Debug\HEROGAME.exe.config
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\bin\Debug\HEROGAME.exe
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\bin\Debug\HEROGAME.pdb
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\obj\Debug\HEROGAME.csprojAssemblyReference.cache
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\obj\Debug\HEROGAME.Form1.resources
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\obj\Debug\HEROGAME.Properties.Resources.resources
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\obj\Debug\HEROGAME.csproj.GenerateResource.cache
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\obj\Debug\HEROGAME.csproj.CoreCompileInputs.cache
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\obj\Debug\HEROGAME.exe
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\obj\Debug\HEROGAME.pdb
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\obj\Debug\HEROGAME.ConstructorGame.resources
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\obj\Debug\HEROGAME.Gameplay.resources
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\obj\Debug\HEROGAME.RulesGame.resources
+C:\Users\daobs\Desktop\HEROGAME\HEROGAME\obj\Debug\HEROGAME.SaveList.resources

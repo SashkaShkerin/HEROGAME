@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A9DD985-79B2-4762-B7FA-4526C378FA37}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HEROGAME</RootNamespace>
+    <AssemblyName>HEROGAME</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>log.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConstructorGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConstructorGame.Designer.cs">
+      <DependentUpon>ConstructorGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gameplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gameplay.Designer.cs">
+      <DependentUpon>Gameplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hero.cs" />
+    <Compile Include="Monstr.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RulesGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RulesGame.Designer.cs">
+      <DependentUpon>RulesGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveList.Designer.cs">
+      <DependentUpon>SaveList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ConstructorGame.resx">
+      <DependentUpon>ConstructorGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gameplay.resx">
+      <DependentUpon>Gameplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RulesGame.resx">
+      <DependentUpon>RulesGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveList.resx">
+      <DependentUpon>SaveList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ww.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25f58c47354645.5877afb7beae5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skull1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hmGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hmRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hwGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hwRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M1Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M1Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M2Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M2Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M3Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M3Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M4Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M4Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rmGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rmRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rwGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rwRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wmGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wmRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wwGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wwRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="log.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
